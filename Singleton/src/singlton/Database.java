@@ -3,7 +3,7 @@ package singlton;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Database {
+final public class Database {
 
     private static Database instance = null;
 
